@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Recursive&display=swap');
+
+$font-family-base: 'Recursive', sans-serif;
+$primary-color: #212529;
+$secondary-color: rgb(240, 136, 185);
+$danger-color: pink;
+
+
+
+
+p{
+    color: $secondary-color;
+}
+
+h5{
+    color: $secondary-color;
+}
+
+.color-text{
+    @extend h5
+}
